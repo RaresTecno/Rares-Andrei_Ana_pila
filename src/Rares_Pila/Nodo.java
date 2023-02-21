@@ -11,7 +11,7 @@ public class Nodo <E>{
     
     public Nodo (E dato){
         this.dato = dato;
-        puntero = null;
+        puntero = null;             
     }
     public E getDato(){
         return this.dato;

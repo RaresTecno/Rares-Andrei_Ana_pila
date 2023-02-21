@@ -7,22 +7,22 @@ package Rares_Pila;
  */
 public class Pila <E>{
     private int numElementos = 0;
-    private Nodo <E> cabeza = null;
+    private Nodo cabeza = null;
     
     public Pila(){
-        //Esto es una prueba
+        
     }
     public Pila(E [] array){ //Para crear una pila ya con objetos
         
     }
     public void apilar(E dato){
-//        Nodo <E> nuevoNodo = new Nodo<>(dato);
         
         numElementos++;
     }
     
-    public void desApilar(){
+    public void desapilar(){
         
+        numElementos--;
     }
     public int numeroElementos(){
         return numElementos;
@@ -30,14 +30,13 @@ public class Pila <E>{
     public E vacio(){
         
     }
-    public void imprimir(){
-        
-    }
-    public E mirarCabeza(){
-        if(numElementos == 0){
-            System.out.println("La pila está vacía");
-            return null;
+    public void imprimir(E [] array){
+        for (int i = 0; i < array.length; i++) {
+            System.out.println();
         }
-        return cabeza.getDato();
+    }
+    public Nodo mirarCabeza(){
+        
+        return this.cabeza;
     }
 }
