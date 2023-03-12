@@ -3,7 +3,7 @@ package Rares_Pila;
  *
  * @author Rares-Andrei Ana
  */
-//nota
+
 //Clase ejecutable con casos de uso de la pila, donde se prueban varias posibilidades.
 public class Main{
     public static void main(String[] args) {
